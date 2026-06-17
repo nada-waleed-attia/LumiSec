@@ -1,0 +1,110 @@
+/* ================= ROOT ================= */
+.summary-container {
+    width: 100%;
+  }
+  
+  /* ================= HEADER ICON ================= */
+  .section-header {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .section-header .icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  /* ================= TITLE ================= */
+  .title {
+    color: #C3BBBB;
+  }
+  
+  /* ================= STATUS ================= */
+  .in-progress {
+    color: #BF8300;
+  }
+  
+  /* ================= SUMMARY LAYOUT ================= */
+  .summary-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* ================= CARDS ================= */
+  .summary-card {
+    background-color: #414B61;
+    border-radius: 10px;
+  }
+  
+  .summary-card-title {
+    color: #C3BBBB;
+    margin-bottom: 8px;
+  }
+  
+  /* ================= ARTIFACT ROW ================= */
+  .artifact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* ================= ACTIONS ================= */
+  .block {
+    background-color: #f852492f;
+    color: #FF1F1F;
+    cursor: pointer;
+  }
+  
+  .scan {
+    background-color: #0076fd56;
+    color: #7178FF;
+    cursor: pointer;
+  }
+  
+  /* ================= TABLET ================= */
+  @media (max-width: 768px) {
+  
+    .summary-row {
+      font-size: 0.85rem;
+    }
+  
+    .artifact-row {
+      font-size: 0.85rem;
+    }
+  
+    .summary-card {
+      padding: 12px;
+    }
+  }
+  
+  /* ================= MOBILE ================= */
+  @media (max-width: 576px) {
+  
+    .summary-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+    }
+  
+    .artifact-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+  
+    .summary-card-title {
+      font-size: 0.85rem;
+    }
+  
+    .section-header h5 {
+      font-size: 1rem;
+    }
+  }

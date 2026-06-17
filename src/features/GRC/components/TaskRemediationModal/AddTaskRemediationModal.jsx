@@ -13,14 +13,14 @@ return <>
     aria-hidden="true"
 >
 
-    <div className="modal-dialog modal-dialog-centered" role="document">
+    <div className="modal-dialog modal-dialog-centered AddTaskRemediationModal" role="document">
 
         <div className="modal-content">
 
             <div className="modal-header border-0">
 
                 <h5 className="modal-title text-white">
-                    Add Task
+                    Create Remediation Task
                 </h5>
 
                 <button
@@ -36,26 +36,72 @@ return <>
 
                 <form action="">
 
-                    <label htmlFor="select" className='d-block mb-2'>
-                        Select from Library
+                    <div className='row justify-content-between align-items-center'>
+                        <div className='col-6'>
+                            <label htmlFor="ControlID" className='d-block mb-2'>
+                                Control ID
+                            </label>
+                        </div>
+                        <div className='col-6'>
+                            <label htmlFor="RiskLevel" className='d-block mb-2'>
+                                Risk Level
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div className='d-flex justify-content-arou align-items-center mb-4'>
+                        <input className='form-control border-0 me-3' type="text" placeholder='Type to search Control ID...' name="" id="ControlID" />
+                        <input className='form-control border-0' type="text" value='High' name="" id="RiskLevel" />
+                    </div>
+
+                    <label htmlFor="Description" className='d-block mb-2'>
+                        Finding / Description
                     </label>
+                    <input className='form-control border-0 mb-4' type="text"  name="" id="Description" placeholder='Brief description of the issue...' />
 
-                    <select
-                        id='select'
-                        className='form-control form-select bg-dark text-white mb-3 border-0'
-                    >
-                        <option value="" selected disabled>
-                            -- Choose a framework --
-                        </option>
-                    </select>
 
-                    <p className='text-secondary text-center position-relative sepration-text'>
-                        OR
-                    </p>
+                    <div className='row justify-content-between align-items-center'>
+                        <div className="col-6">
+                            <label htmlFor="AssignedTo" className='d-block mb-2'>
+                                Assigned To
+                            </label>
+                        </div>
+                        <div className="col-6">
+                            <label htmlFor="DueDate" className='d-block mb-2'>
+                                Risk Level
+                            </label>
+                        </div>
+                        
+                    </div>
 
-                    <label htmlFor="Upload" className="mb-3">
-                        Upload Custom Framework
+
+                    <div className='row justify-content-between align-items-center mb-4'>
+                        <div className='col-6'>
+                            <select
+                                id='AssignedTo'
+                                className='form-select bg-dark text-white border-0 me-3'>
+                                <option value="" selected disabled>
+                                    -- Choose a framework --
+                                </option>
+                            </select> 
+                        </div>
+                        <div className='col-6'>
+                            <input className='form-control border-0' type="date" name="" id="DueDate" />
+                        </div>                      
+                </div>
+
+
+                    <label htmlFor="Status" className='d-block mb-2'>
+                        Status
                     </label>
+                    <input className='form-control border-0 mb-4' type="text"  name="" value="Open" id="Status" />
+
+
+                    <label htmlFor="RemediationPlan" className='d-block mb-2'>
+                        Remediation Plan (Optional)
+                    </label>
+                    <textarea className='form-control mb-4 border-0' name="" id="RemediationPlan" placeholder='Steps required to fix this issue...'></textarea>
 
                     <div className="upload-box">
 
@@ -85,7 +131,8 @@ return <>
 
                 <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn import-btn border-0 btn-primary"
+                    data-bs-dismiss="modal"
                 >
                     Cancel
                 </button>

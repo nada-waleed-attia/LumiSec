@@ -1,0 +1,42 @@
+.urgent-title{
+    color: #64748B;
+}
+
+.urgant-text{
+    color: #94A3B8;
+}
+
+
+.fixNow-btn{
+    color: #06B6D4 !important;
+    background-color: #06b5d43f
+}
+
+
+.critical-danger-triangle{
+    color: #EF4444 !important;
+    background-color: #EF444440;
+    position: relative;
+}
+
+.high-danger-triangle{
+    color: #F97316 !important;
+    background-color: #F9731640;
+    position: relative;
+}
+
+.critical-danger-triangle::before , .high-danger-triangle::before{
+    position: absolute;
+    left: 9px;
+    bottom: 7px;
+}
+
+
+.fixNow-btn{
+    color: #06B6D4 !important;
+    background-color: #06b5d43f !important;
+}
+
+.fixNow-btn i{
+    color: #06B6D4;
+}

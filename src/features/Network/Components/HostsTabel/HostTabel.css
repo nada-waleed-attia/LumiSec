@@ -1,0 +1,70 @@
+.table-responsive-wrapper{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border:1px solid   #64748B;
+}
+
+
+table.discover-tabel {
+    background-color: var(--container-background);
+    width: 100%;
+}
+  
+table.discover-tabel th {
+    background-color: #252B3A;
+    color: #9DA3B0;
+    padding: 20px 10px;
+    text-align: start;
+    font-size: 0.8rem;
+  }
+  
+
+  table.discover-tabel td{
+    border-top: 1px solid #2A3042;
+  }
+  
+
+  table.discover-tabel td.ip-address {
+    padding: 10px;
+  }
+
+table.discover-tabel .ip-address{
+    color: #00D4FF;
+}
+
+table.discover-tabel .mac-address{
+    color: #64748B;
+}
+
+table.discover-tabel .cisco ,table.discover-tabel .vendor{
+    color: #94A3B8;
+}
+
+table.discover-tabel .last-seen{
+    color: #64748B;
+}
+
+table.discover-tabel .status{
+    color: #10B981;
+    background-color: #10b98140;
+    padding: 5px 20px;
+    border: 2px solid #10B981;
+    position: relative;
+}
+
+table.discover-tabel .status::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #10B981;
+    top: 12px;
+    left: 8px;
+}
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+.all, .all:hover{
+    color: #A78BFA !important;
+    background-color: #8B5CF640 !important; 
+    padding: 5px 20px !important;
+    border: 2px solid #8B5CF6 !important;
+}
+
+.all:active{
+    color: #A78BFA !important;
+    background-color: #8B5CF640 !important;
+    padding: 5px 20px;
+    border: 2px solid #8B5CF6 !important;
+}
+
+.inActive-btn{
+    color: #64748B !important;
+    background-color: #242C3D40 !important;
+    padding: 5px 20px;
+    border: 2px solid #242C3D !important;
+}
+
+.purple-background{
+    background-color: #6366F1 !important;
+}
+
+.orange-background{
+    background-color: #F59E0B !important;
+}
+
+.red-background{
+    background-color: #EF4444 !important;
+}
+
+.green-background{
+    background-color: #10B981 !important;
+}
+
+
+.draft-status{
+    color: #A78BFA;
+    background-color: #8B5CF640;
+    padding: 5px 20px;
+    border: 2px solid #8B5CF6;
+}
+
+
+.paused-status{
+    color: #F59E0B;
+    background-color: #F59E0B40;
+    padding: 5px 20px;
+    border: 2px solid #F59E0B;
+}

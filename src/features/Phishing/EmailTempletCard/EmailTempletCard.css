@@ -1,0 +1,19 @@
+.purple-status{
+    color: #A78BFA !important;
+    background-color: #6366F140 !important;
+    padding: 5px 20px;
+}
+
+
+.red-status{
+    color: #EF4444 !important;
+    background-color: #EF444440 !important;
+    padding: 5px 20px;
+}
+
+
+.secandary-status{
+    color: #94A3B8 !important;
+    background-color: #94A3B840 !important;
+    padding: 5px 20px;
+}

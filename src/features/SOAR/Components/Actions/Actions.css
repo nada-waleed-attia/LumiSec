@@ -1,0 +1,122 @@
+/* ================= CONTAINER ================= */
+.actions-container {
+    width: 100%;
+  }
+  
+  /* ================= HEADER ================= */
+  .section-header {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .section-header .icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  /* ================= BUTTONS ================= */
+  .actions-buttons {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* base button */
+  .action-btn {
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    gap: 10px;
+    transition: 0.2s;
+  }
+  
+  /* icons inside buttons */
+  .action-btn img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  /* isolate */
+  .isolate-btn {
+    background-color: #f852492f !important;
+    color: #FF1F1F !important;
+    border: 1px solid #D95A5C !important;
+  }
+  
+  /* scan */
+  .scan-btn {
+    background-color: #0076fd56 !important;
+    color: #7178FF !important;
+    border: 1px solid #5A98F4 !important;
+  }
+  
+  /* reset */
+  .reset-btn {
+    background-color: #F8A30656 !important;
+    color: #BF8300 !important;
+    border: 1px solid #D0BB15 !important;
+  }
+  
+  /* ================= CARDS ================= */
+  .action-card {
+    background-color: #414B61;
+    margin-bottom: 10px;
+  }
+  
+  /* ================= ALERT ROW ================= */
+  .alert-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* badges */
+  .high-action {
+    background-color: #f852492f;
+    color: #FF1F1F;
+  }
+  
+  .medium-action {
+    background-color: #F8A30656;
+    color: #BF8300;
+  }
+  
+  /* ================= TABLET ================= */
+  @media (max-width: 768px) {
+  
+    .action-btn {
+      font-size: 0.85rem;
+      padding: 10px;
+    }
+  
+    .action-card {
+      padding: 12px;
+    }
+  
+    .alert-row p {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* ================= MOBILE ================= */
+  @media (max-width: 576px) {
+  
+    .alert-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .action-btn {
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    .action-btn img {
+      margin-right: 8px;
+    }
+  }

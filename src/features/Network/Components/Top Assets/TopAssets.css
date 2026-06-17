@@ -1,0 +1,19 @@
+.top-assets{
+    background: linear-gradient(
+        180deg, 
+        rgba(255, 255, 255, 0.04) 0%, 
+        rgba(255, 255, 255, 0.01) 100%
+    );
+
+    border: 3px solid #2A3042;
+}
+
+
+.number{
+    background-color: #f852492f;
+    color: #EF4444 !important;
+}
+
+.top-assets .progress-bar {
+    background: linear-gradient(90deg, #EF4444, #FF6B6B);
+}

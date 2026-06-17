@@ -35,8 +35,8 @@ table.RemedationTabel td{
 }
 
 .risk-td.high p{
-    background-color: #2E212C;
-    color: #D92D20;
+    background-color: #2E212C  !important;
+    color: #D92D20 !important;
 }
 
 .risk-td.meduim p{

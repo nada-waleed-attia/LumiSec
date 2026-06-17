@@ -1,0 +1,32 @@
+.blue-number{
+    color: #3B82F6;
+}
+
+.purple-number{
+    color: #818CF8;
+}
+
+.orange-number{
+    color: #F59E0B;
+}
+
+.red-number{
+    color: #EF4444;
+}
+
+
+.progress-bar-blue{
+    background: #3B82F6 !important;
+}
+
+.progress-bar-purple{
+    background: #818CF8 !important;
+}
+
+.progress-bar-orange{
+    background: #F59E0B !important;
+}
+
+.progress-bar-red{
+    background: #EF4444 !important;
+}

@@ -1,0 +1,141 @@
+.service-card {
+
+    width: 370px;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background:
+    radial-gradient(circle at center,
+    #16243f 0%,
+    #101a2d 70%,
+    #0b1322 100%);
+
+    color: white;
+}
+
+/* TITLE */
+
+.title {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:30px;
+}
+
+.title-dot {
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    background:#00D5FF;
+}
+
+.title h3 {
+
+    margin:0;
+
+    font-size:18px;
+}
+
+/* SVG */
+
+.chart-container {
+
+    width:300px;
+
+    height:300px;
+
+    margin:auto;
+
+    position:relative;
+}
+
+.chart-container svg {
+
+    width:100%;
+
+    height:100%;
+}
+
+.segment {
+
+    fill:#697A96;
+
+    opacity:.9;
+}
+
+/* CENTER */
+
+.center {
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    text-align:center;
+}
+
+.center h1 {
+
+    font-size:55px;
+
+    margin:0;
+}
+
+.center p {
+
+    margin-top:5px;
+
+    color:#7B869C;
+}
+
+/* SERVICES */
+
+.services {
+
+    margin-top:25px;
+}
+
+.service-item {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:22px;
+
+    color:#8E99AB;
+}
+
+.service-left {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+}
+
+.service-color {
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:4px;
+}

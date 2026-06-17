@@ -85,12 +85,13 @@ return <>
 
                 <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn import-btn border-0 btn-primary"
+                    data-bs-dismiss="modal"
                 >
                     Cancel
                 </button>
 
-                <button className='btn add-btn text-white border-0'>
+                <button className='btn add-btn text-white border-0' >
                     Add Standard
                 </button>
 

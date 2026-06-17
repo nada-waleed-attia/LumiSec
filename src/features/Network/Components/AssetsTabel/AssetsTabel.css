@@ -1,0 +1,77 @@
+.operating-system{
+    color: #94A3B8;
+    background-color: #1E293B;
+    padding: 5px 20px;
+}
+
+.risk-score{
+    color: #10B981 !important;
+    background-color: #10b98140;
+    padding: 5px 20px;
+}
+
+.network{
+    color: #06B6D4 !important;
+    background-color: #06b5d43f;
+    padding: 5px 20px;
+}
+
+.medium{
+    color: #F59E0B !important;
+    background-color: #F59E0B40;
+    padding: 5px 20px;
+}
+
+.critical{
+    color: #EF4444 !important;
+    background-color: #EF444440;
+    padding: 5px 20px;
+}
+
+.server{
+    color: #8B5CF6 !important;
+    background-color: #8B5CF640;
+    padding: 5px 20px;
+}
+
+.workstation{
+    color: #3B82F6 !important;
+    background-color: #3B82F640;
+    padding: 5px 20px;
+}
+
+.Peripherals{
+    color: #F59E0B !important;
+    background-color: #F59E0B40;
+    padding: 5px 20px;
+}
+
+.iot{
+    color: #EF4444 !important;
+    background-color: #EF444440;
+    padding: 5px 20px;
+}
+
+/* .assets-select{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    accent-color: purple;
+} */
+
+
+
+.assets-select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.assets-select:checked {
+    appearance: auto;
+}

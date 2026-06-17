@@ -17,3 +17,12 @@ body {
 .w-4{
     width: 4%;
 }
+
+
+.w-8{
+    width: 8%;
+}
+
+.w-fit-content{
+    width: fit-content;
+}

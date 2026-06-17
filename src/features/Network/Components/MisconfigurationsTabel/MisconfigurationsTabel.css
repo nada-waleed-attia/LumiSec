@@ -1,0 +1,36 @@
+.fix{
+    background-color: #06B6D4 !important;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+}
+
+
+.assets , .assets-desc , .type , .description , .critical{
+    font-size: 0.8rem;
+}
+
+.critical{
+    color: #EF4444 !important;
+    background-color: #EF444440;
+    padding: 5px 15px;
+}
+
+.fixed{
+    color: #10B981 !important;
+    background-color: #10b98140;
+}
+
+.fixed-icon{
+    color: #10B981 !important;
+}
+
+.high-sevarity{
+    color: #F97316 !important;
+    background-color: #F9731640;
+}
+
+
+.medium-sevarity{
+    color: #EAB308 !important;
+    background-color: #EAB30840;
+}

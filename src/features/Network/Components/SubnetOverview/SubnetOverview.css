@@ -1,0 +1,14 @@
+.subnet-status{
+    background-color: #10b9813d;
+    color: #10B981 !important;
+    border: 2px solid #10B9813d;
+    font-size: x-small;
+}
+
+.subnet-title{
+    color: #00D4FF;
+}
+
+.subnet .progress-bar {
+    background: linear-gradient(90deg, #00D4FF, #00E5FF);
+}

@@ -1,0 +1,10 @@
+.invalid-div{
+    color: #EF4444 !important;
+    background-color: #EF444440;
+    padding: 5px 20px;
+    border: 2px solid #EF4444;
+}
+
+.red-status-border{
+    border: 2px solid #EF4444;
+}

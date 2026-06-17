@@ -1,0 +1,12 @@
+.exclamation-icon{
+    color: #EF4444 !important;
+}
+
+
+.Anomaly-Alerts-progress .progress-bar{
+    background: linear-gradient(90deg , #EF4444 , #DC2626);
+}
+
+.Anomaly-Alerts-progress-orange .progress-bar{
+    background: linear-gradient(90deg , #F97316 , #EA580C);
+}

@@ -1,0 +1,35 @@
+
+.summary{
+    background-color: #1E293B;
+    border: 1px solid #536783;
+    height: stretch;
+}
+
+.dashboard-card{
+    background-color: var(--container-background);
+    border: 3px solid #2A3042;
+}
+
+
+
+.actions{
+    background-color: #1E293B;
+    border: 1px solid #536783;
+    height: stretch;
+}
+
+.Incident{
+    background-color: #F8A30656 !important;
+    color: #BF8300 !important;
+}
+
+.Incidents-Queue-btn{
+    background-color: #44546B !important;
+    width: 200px;
+}
+
+
+.Close-Incident-btn{
+    background: linear-gradient(90deg , #7F56D9 , #539BFF);
+    width: 200px;
+}

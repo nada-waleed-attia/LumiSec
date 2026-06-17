@@ -1,0 +1,40 @@
+.blue-number{
+    color: #3B82F6 !important;
+}
+
+.purple-number{
+    color: #818CF8 !important;
+}
+
+.orange-number{
+    color: #F59E0B !important;
+}
+
+.red-number{
+    color: #EF4444 !important;
+}
+
+.green-number{
+    color: #10B981 !important;
+}
+
+
+.progress-bar-blue{
+    background: #3B82F6 !important;
+}
+
+.progress-bar-purple{
+    background: #818CF8 !important;
+}
+
+.progress-bar-orange{
+    background: #F59E0B !important;
+}
+
+.progress-bar-red{
+    background: #EF4444 !important;
+}
+
+.progress-bar-green{
+    background: #10B981 !important;
+}

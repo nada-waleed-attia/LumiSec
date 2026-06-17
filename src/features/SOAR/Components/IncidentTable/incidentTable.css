@@ -1,0 +1,134 @@
+table.incidentTable {
+    background-color: var(--container-background);
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* header */
+  table.incidentTable th {
+    background-color: #252B3A;
+    color: #9DA3B0;
+    padding: 20px 10px;
+    text-align: start;
+    font-size: 0.8rem;
+  }
+  
+  /* cells */
+  table.incidentTable td {
+    color: white;
+    text-align: start;
+    padding: 20px 10px;
+    border-top: 1px solid #2A3042;
+    font-size: 0.8rem;
+  }
+  
+  .table-responsive-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* status */
+  .status {
+    border: 2px solid #F85149;
+    background-color: #f852492f;
+    width: fit-content;
+  }
+  
+  /* mitre */
+  .incidentTable p.mitre {
+    color: #DBAB09;
+    width: fit-content;
+
+  }
+  
+  /* tags */
+  .tag {
+    border: 2px solid #58A6FF;
+    background-color: #58A6FF2f;
+    width: fit-content;
+  }
+  
+  /* button */
+  .investigate-btn {
+    background: linear-gradient(90deg, #7F56D9, #539BFF);
+  }
+  
+  /* colors */
+  .ip-div p,
+  .ip-div i {
+    color: #3FB950 !important;
+  }
+  
+  .trafic-text {
+    color: #EF4444 !important;
+  }
+  
+  .incidentTable .high {
+    background-color: #F8A30656 !important;
+    color: #BF8300 !important;
+    border: 2px solid #FB8500;
+  }
+  
+  .high p {
+    color: #FB8500 !important;
+  }
+  
+  /* ========================= */
+  /* RESPONSIVE TABLET */
+  /* ========================= */
+  @media (max-width: 768px) {
+  
+    table.incidentTable th,
+    table.incidentTable td {
+      font-size: 0.7rem;
+      padding: 12px 8px;
+    }
+  
+    .investigate-btn {
+      font-size: 0.7rem;
+      padding: 6px 10px;
+    }
+  
+    .tag {
+      font-size: 0.65rem;
+    }
+  }
+  
+  /* ========================= */
+  /* MOBILE CARD MODE */
+  /* ========================= */
+  @media (max-width: 576px) {
+  
+    table.incidentTable thead {
+      display: none;
+    }
+  
+    table.incidentTable,
+    table.incidentTable tbody,
+    table.incidentTable tr,
+    table.incidentTable td {
+      display: block;
+      width: 100%;
+    }
+  
+    table.incidentTable tr {
+      background: #1b2230;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      padding: 12px;
+    }
+  
+    table.incidentTable td {
+      border: none;
+      padding: 8px 0;
+    }
+  
+    table.incidentTable td::before {
+      content: attr(data-label);
+      display: block;
+      font-weight: bold;
+      color: #9DA3B0;
+      margin-bottom: 4px;
+    }
+  }

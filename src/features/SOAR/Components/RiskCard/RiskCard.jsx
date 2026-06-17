@@ -12,9 +12,12 @@ export default function RiskCard() {
         88%
       </h1>
 
-      <p className="small text-center mb-0">
+      <p className="small text-center text-white mb-3">
         SRV-01 Security Score
       </p>
+
+      <p>High exposure due to Domain Admin privileges and Active Malware
+      connection.</p>
 
     </div>
   );
