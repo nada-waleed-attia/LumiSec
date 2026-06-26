@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import {
   BarChart3,
   Cloud,
-  Code2,
   Database,
   FileCheck2,
   Home,
@@ -20,32 +19,32 @@ import { useAuth } from "../auth/context/AuthContext";
 import "./WelcomePage.css";
 
 const metrics = [
-  { value: "24", label: "Active Threats" },
+  { value: "5", label: "Security Modules" },
   { value: "112", label: "Incidents Resolved" },
-  { value: "3.4s", label: "Avg. Response Time" },
+  { value: "24/7", label: "Operational Visibility" },
 ];
 
 const features = [
   {
     icon: <ShieldCheck aria-hidden="true" />,
-    title: "SOAR Automation",
-    to: "/SOAR/playbook",
+    title: "SOAR Response",
+    to: "/SOAR",
     description:
-      "Orchestrate, automate, and respond to threats in real-time with our advanced SOAR engine.",
+      "Triage incidents, coordinate playbooks, and move response actions faster.",
   },
   {
-    icon: <Code2 aria-hidden="true" />,
-    title: "Integrated IDE",
-    to: "/SOAR/playbook",
+    icon: <Network aria-hidden="true" />,
+    title: "Network Security",
+    to: "/Network",
     description:
-      "Write, test, and execute custom security scripts directly within LumiSec.",
+      "Discover assets, scan ports, inspect packets, and monitor network exposure.",
   },
   {
     icon: <BarChart3 aria-hidden="true" />,
-    title: "Deep Analytics",
-    to: "/SOAR",
+    title: "GRC Tracking",
+    to: "/GRC",
     description:
-      "Gain actionable insights with real-time dashboards and predictive analytics.",
+      "Track controls, remediation tasks, findings, and compliance workflows.",
   },
 ];
 
@@ -107,24 +106,24 @@ export default function WelcomePage() {
 
       <section className="welcome-content">
         <div className="welcome-hero">
+          <p className="welcome-eyebrow">Cyber defense workspace</p>
           <h1>
-            Welcome to
-            <span>LumiSec Platform</span>
+            Welcome to the
+            <span>LumiSec Command Center</span>
           </h1>
-          <p className="hero-kicker">Redefining Cybersecurity</p>
-          <p className="hero-subtitle">Powered by SOAR Automation &amp; Integrated IDE</p>
+          <p className="hero-kicker">Operate phishing, network, GRC, SOAR, and SIEM workflows from one calm workspace.</p>
+          <p className="hero-subtitle">Choose a module and continue your security operation.</p>
           <p className="hero-copy">
-            The future of <strong>Cybersecurity Platforms</strong> - featuring our powerful
-            SOAR automation engine and integrated IDE for custom scripting. Stay in control,
-            stay secure.
+            LumiSec keeps your detection, investigation, and remediation work connected
+            across the full <strong>cybersecurity lifecycle</strong>.
           </p>
           <div className="hero-actions">
             <Link className="primary-action" to="/SOAR">
-              Get Started
+              Open SOAR
             </Link>
-            <a className="secondary-action" href="#features">
-              Learn More
-            </a>
+            <Link className="secondary-action" to="/Network">
+              Open Network
+            </Link>
           </div>
         </div>
 
@@ -136,19 +135,6 @@ export default function WelcomePage() {
             </article>
           ))}
         </div>
-
-        <article className="glass-panel ide-preview">
-          <h2>
-            <Code2 aria-hidden="true" />
-            Demo IDE Preview
-          </h2>
-          <pre>
-            <code>{`# Example Script 1
-def check_system():
-    print("Scanning system for threats...")
-    return "No threats found"`}</code>
-          </pre>
-        </article>
 
         <section className="feature-grid" id="features" aria-label="Platform features">
           {features.map((feature) => (
